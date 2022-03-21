@@ -44,8 +44,6 @@ const updateClock = () => {
         timerBlock.textContent = `${fDays + getNoun(fDays, " день ", " дня ", " дней ") } ${fHours }:${fMinutes}:${fSec}`
 
     }
-
-
 }
 
 updateClock()
